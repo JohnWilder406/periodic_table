@@ -1,0 +1,133 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+#body {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 260px;
+    width: auto;
+    vertical-align: bottom;
+    margin-bottom: 15px;
+}
+
+#period {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.table {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#blue {
+    width: 73px;
+    height: auto;
+}
+
+#pink {
+    width: 369px;
+    height: 149px;
+    margin-top: 111px;
+    margin-left: 10px;
+}
+
+#goldenrod {
+    margin-left: 1px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 35px;
+    width: 637px;
+    justify-content: flex-end;
+    margin-top: 2px;
+    align-items: center;
+
+}
+
+.element {
+    height: 33px;
+    width: 33px;
+    border: 1px solid black;
+    margin: 1px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#header .element, 
+#period .element {
+    border: none;
+    margin: 2px;
+}
+
+#blue .element {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+}
+
+#pink .element {
+    background-color: palevioletred;
+    border: 1px solid black;
+}
+
+#goldenrod .element {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+.footer .element {
+    background-color: rgb(17, 190, 17);
+    border: 1px solid black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.gap {
+    margin-left: 10px;
+}
+
+p,
+#header p,
+#period p {
+    color: red;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.element p {
+    font-size: 8px;
+    color: black;
+}
+
+.element h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side {
+    margin-right: 25px;
+}
+
